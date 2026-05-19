@@ -1,0 +1,52 @@
+body{
+    /* background: url("vytcdc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll; */
+}
+p{
+    /* color: blue;
+    font-family: 'Lucida Sans';
+    font-size: large;
+    text-decoration: underline; */
+}
+div{
+    /* width: 100px;
+    height: 100px;
+    position: absolute; */
+}
+#div1{
+    /* background-color: salmon;
+    z-index: 2;     */
+    /* margin: 50px 40px 30px 20px;
+    width: 200px;
+    height: 200px;
+    border: dashed 10px blue;
+    padding: 40px 30px 20px 10px; */
+
+    
+    /* transition: transform 2s; */
+}
+#div2{
+    /* background-color: lightblue;
+    margin: 25px;
+    z-index: 3; */
+}
+#div3{
+    /* background-color: darkmagenta;
+    margin: 50px;
+    z-index: 1; */
+}
+/* #div1:hover{
+    transform: skew(30deg,30deg);
+} */
+
+
+#ind-task{
+    
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}

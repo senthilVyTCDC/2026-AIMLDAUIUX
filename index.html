@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js"></script>
+        
+        <!-- <script>
+            window.alert("Hello World");
+        </script> -->
+        
+        <!-- <style>
+            p{
+                background-color: lightsalmon ;
+            }
+        </style> -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            <h1>To-Do List</h1>
+        </div>
+        <button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+        <div>
+            <label>Enter your Task</label>
+            <input id="input1">
+            <button class="btn btn-outline-primary btn-lg" onclick="AddTask()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-square-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+</svg>Add Task</button>
+        </div>
+        <div id="main-task">
+            
+        </div>
+
+
+        <!-- <div>
+            <label>Enter your age</label>
+            <input type="text" placeholder="Name" id="input1">
+            <button onclick="Display()">Click Me</button>
+            <p id="para1"></p>
+        </div> -->
+
+
+        <!-- <div id="div1">
+            
+        </div>
+        <div id="div2">
+
+        </div>
+        <div id="div3">
+
+        </div> -->
+        <!-- <h1>Hello World</h1>
+        <hr>
+        <p class="para" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint aut sit commodi? Hic, commodi earum. Ullam labore aperiam modi iusto animi quibusdam cumque numquam. Totam, ut nihil? Illo, recusandae.</p>
+        <p class="para" id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quas, illum facere voluptate iusto adipisci distinctio ut provident doloribus dolores alias, excepturi voluptates culpa. Dolor hic deleniti doloremque quam nemo?</p>
+        <p class="para" id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quisquam nihil dignissimos animi, blanditiis vero dicta culpa voluptas totam a commodi neque unde aut, ipsa perferendis. Iste eos saepe magnam!</p> -->
+        <!-- <audio controls>
+            <source src="audio1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <video controls height="200px" width="300px">
+            <source src="video1.mp4" type="video/mp4" >
+            Your browser does not support the video tag.
+        </video>
+        <iframe src="https://vytcdc.com/"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8652718940393!2d80.18040897527163!3d13.044246613281079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52612df3fe2785%3A0xdc877a84035a4719!2sVyTCDC!5e0!3m2!1sen!2sin!4v1778659556317!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        
+
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>Emily Johnson</td>
+                    <td>35</td>
+                    <td>Chicago</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+
+
+        <ul>
+            <li>HTML</li>
+            <ul>
+                <li>HTML5</li>
+                <li>HTML4</li>
+            </ul>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+        <img src="vytcdc.png" alt="NOT FOUND">
+        <img src="https://vytcdc.com/wp-content/uploads/2024/09/VyTcdc-Logo-New-Version-Capital-2-2048x797.png" height="200px" width="300px">
+        <p style="border: solid 3px red;">Lorem ipsum, <span style="border: solid 3px blue;">dolor sit amet consectetur</span> adipisicing elit. Veritatis molestias illo repellendus labore nam alias quo, nihil quas, sint earum perspiciatis quod eius reiciendis fuga cumque facilis numquam atque voluptates.</p>
+        <a href="https://vytcdc.com/" target="_blank">VYTCDC</a>
+        <a href="sample.html">INTENAL</a>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#js">Javascript</a>
+        <a href="#bs">Bootstrap</a>
+
+
+        <a name="html"></a>
+        <h2>HTML</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+
+        <a name="css"></a>
+        <h2>CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        
+        <a name="js"></a>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+
+        <a name="bs"></a>
+        <h2>Bootstrap</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum reiciendis illo suscipit ipsum maxime excepturi accusamus tempora reprehenderit! Sed blanditiis necessitatibus qui voluptatum, quis nisi quae ipsa ab enim!</p> -->
+
+    </body>
+</html>
